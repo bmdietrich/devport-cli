@@ -1,0 +1,33 @@
+{
+  "name": "devport-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for DevPort CLI - manage local dev ports through AI assistants",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "devport-mcp": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "devport",
+    "development",
+    "ports",
+    "process-manager",
+    "model-context-protocol",
+    "claude",
+    "ai"
+  ],
+  "author": "Brent Dietrich",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.3.6"
+  }
+}

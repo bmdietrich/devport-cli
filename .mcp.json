@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "devport": {
+      "command": "devport-mcp"
+    }
+  }
+}
